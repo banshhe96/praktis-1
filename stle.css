@@ -1,0 +1,277 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container {
+   width: 1220px; 
+   margin: 0 auto;
+  }
+  
+.list-header{
+    display: flex;
+    gap: 40px;
+
+}
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.list-header li{
+    list-style: none;
+}
+.list-header li a{
+    text-decoration: none;
+    font-family: sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.33px;
+color: #363853;
+opacity: 50%;
+transition: all 0.3s;
+
+}
+.list-header li a:hover{
+    opacity: 1;
+}
+.section-one-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 91px;
+}
+.left-side h2{
+    width: 530px;
+    font-family: sans-serif;
+    font-size: 66px;
+    font-weight: 500;
+    line-height: 78.21px;
+
+
+
+    
+}
+.left-side p{
+    font-family: sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+width: 513px;
+color: #363853;
+margin-bottom: 23px;
+}
+.left-side button{
+  width: 163px;
+height: 50.41px;
+
+
+font-family: sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 23.7px;
+text-align: center;
+color: #fff;
+background-color: #FF7A50;
+border: none;
+border-radius: 5px;
+margin-bottom: 70px;
+
+
+    
+}
+.name{
+    color: #FF7A50;
+}
+.section-two-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 91px;
+    gap: 137px;
+}
+.right-side h3{
+    width: 449px;
+    height: 497px;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 50px;
+    
+  
+}
+.name-2{
+    color: #FF7A50;
+}
+.right-side p{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    width: 449px;
+    margin-top: 95px;
+color: #363853;
+
+}
+.right-side button{
+    width: 176px;
+height: 58px;
+border-radius: 30px 30px 1px 30px;
+font-family: sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 23.7px;
+text-align: center;
+border: none;
+color:#FFFF;
+margin-top: 141px;
+background-color: #FF7A50;
+
+
+
+
+
+}
+.title{
+font-family: sans-serif;
+font-size: 36px;
+font-weight: 500;
+line-height: 30px;
+text-align: center;
+color: #363853;
+margin-bottom: 50px;
+}
+.name-3{
+  color: #FF7A50;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 43px; 
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+
+  .card {
+    width: 300px; 
+    border: 1px solid #ddd;
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff; 
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  
+  .card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+  }
+  
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .card-description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  
+  .card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  }
+  .name-4{
+    color: #FF7A50;
+  }
+  .section-fwo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .left-side h2{
+    width: 454px;
+top: 2507px;
+left: 176px;
+margin-bottom: 30px;
+margin-top: 361px;
+
+
+
+  }
+  .left-side p{
+    width: 538px;
+height: 94px;
+top: 2587px;
+left: 176px;
+margin-bottom: 383px;
+
+  }
+  .last-sct-box {
+    height: 312px;
+    background-color: rgba(255, 122, 80, 1);
+    border-radius: 20px;
+    padding-top: 59px;
+  }
+  
+  .last-sct-box h2 {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47.4px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 72px;
+  }
+  
+  .last-sct-box div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .last-sct-box div input {
+    width: 838px;
+    height: 78px;
+    border-radius: 70px;
+    box-shadow: 10px 24px 54px 0px rgba(0, 0, 0, 0.07);
+  }
+  
+  .last-sct-box div button {
+    width: 191px;
+    height: 58px;
+    border-radius: 70px;
+    border: 1px solid black;
+    background-color: rgba(255, 122, 80, 1);
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    line-height: 30px;
+    transform: translate(150%, -115%);
+  }
+  
+  
+  
+
+  
+
+
+
+
+
